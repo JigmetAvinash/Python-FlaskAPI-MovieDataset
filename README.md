@@ -33,8 +33,25 @@ latest version of python is reccommended.
 ### Creation of Virtual Enviorment in Python
 You have to create a virtual enviorment in python to execute this, make sure to refer to <a href="https://docs.python.org/3/library/venv.html">Python's official documentation</a> for more.
 
+Or Simply run 
+```
+python -m venv .
+
+#Windows / Linux
+source/bin/activate.ps1
+
+#MacOs
+source source/bin/activate
+```
+
 ### Adding of libraries
 To add the libraries, run the following command in your preffered terminal
-<404>
-
+``` 
+pip install requirements.txt
+```
+### To Run the python script
+All the required dependencies are now installed and the script can now run by just a simple command
+```
+python main.py
+``` 
 
